@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>SUDOKU</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="sudoku.css">
+	<script type="text/javascript" src="sudoku.js">  	</script> 
+    </head>
+    <body onload="sudoku.initDisplay()"  onkeydown="sudoku.processEvent(event);">
+         <div class="myTextDiv">
+                   WELCOME!!  SUDOKU CHALLENGE
+                </div>
+        <table style="width: 100%;height: 100%;">
+        <tr style="width: 100%;">
+            <td style="width: 100%;padding: 2%;" align="center">
+                <div id="myBoard" style="border: 4px solid gray;width: fit-content;width: -moz-fit-content;"></div>
+            </td>
+        </tr>
+            </table>
+    <div class="myTextDiv" id="main">Have Fun!!
+                </div> 
+    </body>
+</html>

@@ -1,0 +1,74 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 16 Feb, 2018, 3:44:26 PM
+    Author     : nivethi-5192
+*/
+
+.floating-box
+{
+    display: inline-block;
+    width: 40px;
+    vertical-align: top;
+    height: 40px;
+    border: 1px solid graytext;   
+    text-align: center;
+    line-height: 2.5;
+}
+.floating-box-right
+{
+/*    width: 31px;*/
+    border-right: 3px solid gray;
+}
+.floating-box-left
+{
+/*    width: 31px;*/
+    border-left: 3px solid gray;
+}
+.floating-box-top
+{
+/*    height: 31px;*/
+    border-top: 3px solid gray;
+}
+.floating-box-bottom
+{
+/*    height: 31px;*/
+    border-bottom: 3px solid gray;
+}
+.read-only-box
+ {
+    font-weight: bold;
+    background-color: gainsboro !important;
+    cursor: default;
+ }
+    .edit-box
+    {
+            background-color: beige;
+    }
+    .edit-box:hover
+    {
+        background-color: #ff99cc;
+        cursor: pointer;
+    }
+.edit-box-focus
+{
+    background-color: #ecb890;
+}
+.myTextDiv {
+text-align: center;
+    background-color: gainsboro;
+    color: gray;   
+    height: 100px;
+    font-size: 50px;
+    line-height: 2;
+}
+.edit-box-wrong
+{
+    background-color: #ef5151 !important;
+    color: black;
+    text-shadow: -1px 0 gray, 0 1px gray, 1px 0 gray, 0 -1px gray;
+
+}
